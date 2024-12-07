@@ -52,8 +52,8 @@ class Sdk {
   private bufferMinLimit: number = 0
   /** Queue of requests in case of retries */
   private requestQueue: Record<string, QueuedRequest[]> = {}
-  /** App key used to reinitialize the sdk when session times out */
-  private appKey = ''
+  /** App key used to initialize the sdk */
+  private appKey = '<YOUR_APP_KEY>'
   /** Number of seconds before showing a new banner when auto rotation is enabled */
   private rotationInterval = 0
   /** If banners should be switched automatically by a timer when shown */
