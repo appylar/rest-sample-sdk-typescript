@@ -1,6 +1,6 @@
 # The Appylar REST API sample app
 
-This SDK contains a sample integration with the Appylar REST API using TypeScript. Before you start the app, add a valid app key from an app registered on your Appylar account in the initialization function.
+This SDK contains a sample integration with the Appylar REST API using TypeScript. Before you start the app, add a valid app key from an app registered on your Appylar account in the initialization function. Also, make sure to set the correct bundle id for your app in your IDE.
 
 Please read the full documentation of the SDK on our [website](https://www.appylar.com/).
 
